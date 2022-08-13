@@ -1,0 +1,53 @@
+.notification {
+  display: flex;
+  padding: 5px 0px;
+  padding-left: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  background-color: #fff;
+  align-items: center;
+}
+
+.notification:hover >a{
+  color: #000;
+  opacity: .4;
+  transition: all .3s ease;
+}
+
+.notification div {
+  margin-left: 15px;
+  padding: 10px;
+  flex-grow: 1;
+
+}
+.notification>a{
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  font-size: 15px;
+  opacity: 0;
+}
+
+.notification>a:hover{
+
+opacity: .8;
+}
+
+.notification .action:hover{
+  color: #000;
+  opacity: 1;
+}
+
+.notification .date {
+  color: #999999;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.notification p a {
+  text-decoration: none;
+  color: #268BD2;
+}
+
+.notification:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
